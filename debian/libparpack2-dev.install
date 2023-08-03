@@ -1,2 +1,4 @@
 usr/lib/*/libparpack.a
 usr/lib/*/libparpack.so
+usr/lib/*/cmake
+usr/lib/*/pkgconfig/parpack.pc

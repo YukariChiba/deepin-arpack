@@ -1,3 +1,26 @@
+arpack (3.8.0-3) unstable; urgency=medium
+
+  * Team upload.
+  * libparpack2: Drop ancient Replaces on libarpack2.
+  * libparpack-dev: Do not ship arpack.pc.
+
+ -- Andreas Beckmann <anbe@debian.org>  Sat, 03 Dec 2022 23:12:40 +0100
+
+arpack (3.8.0-2) unstable; urgency=medium
+
+  * Team upload.
+  * DEP5
+  * Standards-Version: 4.6.1 (routine-update)
+  * debhelper-compat 13 (routine-update)
+  * Fix Maintainer name of Debian Science team (routine-update)
+  * Add salsa-ci file (routine-update)
+  * Rules-Requires-Root: no (routine-update)
+  * Drop transition for old debug package migration.
+  * Install cmake and pkgconfig files
+  * debian/not-installed for *.la files
+
+ -- Andreas Tille <tille@debian.org>  Wed, 30 Nov 2022 09:51:15 +0100
+
 arpack (3.8.0-1) unstable; urgency=medium
 
   * New upstream release
